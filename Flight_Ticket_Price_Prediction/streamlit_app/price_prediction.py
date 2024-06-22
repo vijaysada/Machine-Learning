@@ -81,7 +81,7 @@ stops = st.selectbox(
 # Display the selected number of stops
 st.write("You selected:", stops, "stops")
 
-model_path = r"C:\Users\vijay\Desktop\ML\PROJECTS\FIINAL_PROJECT\streamlit\price_dt_pred.pkl"
+model_path = r"Flight_Ticket_Price_Prediction/streamlit_app/price_dt_pred.pkl"
 
 if st.button("Submit"):
     try:
